@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# My Data Analysis Portfolio
+This is my personal portfolio website, showcasing my projects in Python, SQL, and Power BI.
 
-# Run and deploy your AI Studio app
+##  Live Demo
+You can view the live site here: [https://vatsaldata.netlify.app/](https://vatsaldata.netlify.app/)
 
-This contains everything you need to run your app locally.
+##  Tech Stack
+- **Frontend:** React / Vite, Tailwind CSS
+- **Deployment:** Netlify
+- **Data Tools:** Python, SQL, Power BI
 
-View your app in AI Studio: https://ai.studio/apps/drive/1xXl9sfc08XdQHUEXe3xBC_YdglPTlMGg
+##  Featured Projects
+- **UIDAI Maintenance Framework:** A risk identification system for Aadhaar data.
+- **E-commerce Sales Dashboard:** Insights into revenue and customer behavior.
+- **Business Operations Dashboard:** Real-time tracking of operational KPIs.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+##  Local Development
+1. Clone the repo: `git clone https://github.com/Vatsalsrivastava1209/portfolio.git`
+2. Install dependencies: `npm install`
+3. Start the dev server: `npm run dev`
