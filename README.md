@@ -1,7 +1,5 @@
-# My Data Analysis Portfolio
-This is my personal portfolio website, showcasing my projects in Python, SQL, and Power BI.
+## Portfolio Website
 
-##  Live Demo
 You can view the live site here: [https://vatsaldata.netlify.app/](https://vatsaldata.netlify.app/)
 
 ##  Tech Stack
