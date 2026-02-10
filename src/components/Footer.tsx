@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
                     <div>
                         <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Quick Links</h3>
                         <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
-                            <li><Link to="/services" className="hover:text-blue-600 transition-colors">Services</Link></li>
+                            {/* <li><Link to="/services" className="hover:text-blue-600 transition-colors">Services</Link></li> */}
                             <li><Link to="/case-studies" className="hover:text-blue-600 transition-colors">Case Studies</Link></li>
                             <li><Link to="/approach" className="hover:text-blue-600 transition-colors">Approach</Link></li>
                             <li><Link to="/contact" className="hover:text-blue-600 transition-colors">Contact</Link></li>

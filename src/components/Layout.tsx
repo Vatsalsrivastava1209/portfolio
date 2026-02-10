@@ -8,7 +8,7 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
-        <div className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 selection:bg-blue-100 selection:text-blue-900">
+        <div className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 selection:bg-blue-100 selection:text-blue-900 relative">
             <Navbar />
             <main className="flex-grow pt-20">
                 {children}

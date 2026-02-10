@@ -57,14 +57,15 @@ const Services: React.FC = () => {
                         key={service.title}
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: index * 0.1 }}
-                        className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-700 p-6 lg:p-8 hover:shadow-xl transition-shadow"
+                        whileHover={{ scale: 1.05, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)" }}
+                        transition={{ delay: index * 0.1, type: "spring", stiffness: 300 }}
+                        className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-100 dark:border-gray-700 p-6 lg:p-8 transition-shadow flex flex-col"
                     >
                         <div className="bg-gray-50 dark:bg-gray-700/50 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                             {service.icon}
                         </div>
                         <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white mb-3">{service.title}</h3>
-                        <p className="text-gray-600 dark:text-gray-300 mb-6 min-h-[50px]">{service.description}</p>
+                        <p className="text-gray-600 dark:text-gray-300 mb-6 min-h-[50px] flex-grow">{service.description}</p>
 
                         <div className="mb-6">
                             <span className="text-blue-600 dark:text-blue-400 font-bold text-xl">{service.price}</span>
