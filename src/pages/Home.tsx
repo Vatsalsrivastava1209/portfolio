@@ -72,7 +72,8 @@ const Home: React.FC = () => {
                                 </Link>
                                 <a
                                     href="/remote-product-growth-analyst-resume.md"
-                                    download="Vatsal_Srivastava_Remote_Product_Growth_Analyst_Resume.md"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="px-8 py-4 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white rounded-lg font-semibold hover:bg-gray-200 dark:hover:bg-gray-700 transition-all flex items-center justify-center gap-2"
                                 >
                                     <Download size={18} /> Resume
@@ -180,6 +181,8 @@ const Home: React.FC = () => {
                     </p>
                     <a
                         href="/sample-analytics-brief-why-revenue-dropped.md"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition-all"
                     >
                         Read sample revenue-drop brief <ArrowRight size={18} />
