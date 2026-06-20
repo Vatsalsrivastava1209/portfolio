@@ -1,6 +1,6 @@
 ## Portfolio Website
 
-You can view the live site here: [https://vatsaldata.netlify.app/](https://vatsaldata.netlify.app/)
+You can view the live site here: [https://vatsals.netlify.app/](https://vatsals.netlify.app/)
 
 ##  Tech Stack
 - **Frontend:** React / Vite, Tailwind CSS

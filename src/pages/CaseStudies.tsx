@@ -19,11 +19,11 @@ const caseStudies = [
     {
         title: 'Engagement Collapse RCA',
         roleSignal: 'Product metric drop investigation',
-        description: 'Investigated a 17% watch-time drop after a recommendation model update using SQL, Python, segmented time-series analysis, and hypothesis testing.',
+        description: 'Diagnosed a 26.3% drop in plays per active user after a recommendation-model rollout using SQL, Python, segmented time-series analysis, and hypothesis testing.',
         tech: ['SQL', 'Python', 'Statistics', 'A/B Testing'],
-        link: 'https://github.com/Vatsalsrivastava1209/Investigating-an-Engagement-Collapse-After-a-Recommendation-Model-Update',
+        link: 'https://github.com/Vatsalsrivastava1209/Engagement-Collapse-RCA',
         details: [
-            { label: 'Problem', text: 'Watch time dropped sharply after a recommendation model deployment, and the team needed to know whether the issue was global or segment-specific.' },
+            { label: 'Problem', text: 'Plays per active user dropped sharply after a recommendation-model rollout, and the team needed to know whether the issue was global or segment-specific.' },
             { label: 'Data', text: 'Clickstream logs, region/device/customer segments, watch-time behavior, and bounce-rate signals.' },
             { label: 'Method', text: 'PostgreSQL segmentation, Python ETL, time-series comparison, hypothesis testing, and business impact sizing.' },
             { label: 'Decision Enabled', text: 'Isolated the failure to IN-North and IN-South, ruled out global causes, and recommended rollback plus future canary testing.' }
@@ -34,7 +34,7 @@ const caseStudies = [
         roleSignal: 'Experimentation and growth decision support',
         description: 'A reusable experimentation workflow covering sample-size planning, randomization, frequentist/Bayesian analysis, sequential testing, and multiple-testing correction.',
         tech: ['Python', 'Power Analysis', 'Bayesian Testing', 'Statistics'],
-        link: 'https://github.com/Vatsalsrivastava1209/Scientific-A-B-Testing-for-Your-DS-ML-Creator-Account',
+        link: 'https://github.com/Vatsalsrivastava1209/Creator-Experimentation-Toolkit',
         details: [
             { label: 'Problem', text: 'Growth teams need to know whether observed lift is real, underpowered, noisy, or inflated by repeated testing.' },
             { label: 'Data', text: 'Experiment assignment, conversion outcomes, time-series effects, treatment/control groups, and simulated future rounds.' },
@@ -45,9 +45,9 @@ const caseStudies = [
     {
         title: 'E-commerce Customer Behavior Dashboard',
         roleSignal: 'BI analytics for revenue and customer decisions',
-        description: 'Power BI dashboard analyzing 4,373 customers across 38 countries and approximately GBP 9.75M in total sales.',
+        description: 'Power BI and Python analysis of 4,338 customers and 8.91M in net revenue after cleaning returns, cancellations, and postage rows.',
         tech: ['Power BI', 'DAX', 'Power Query', 'Customer Analytics'],
-        link: 'https://github.com/Vatsalsrivastava1209/E-Commerce-Customer-Behavior-and-Sales-Insights-Dashboard',
+        link: 'https://github.com/Vatsalsrivastava1209/E-commerce-Customer-Analytics',
         details: [
             { label: 'Problem', text: 'Stakeholders needed visibility into sales performance, customer purchasing behavior, and market-level revenue patterns.' },
             { label: 'Data', text: 'Online retail transactions, country-level customer behavior, revenue metrics, product performance, and seasonality.' },

@@ -20,14 +20,14 @@ const featuredWork = [
     },
     {
         title: 'Engagement Collapse RCA',
-        text: 'Investigated a 17% watch-time drop after a recommendation model update using SQL, Python, segmentation, and hypothesis testing.',
-        link: 'https://github.com/Vatsalsrivastava1209/Investigating-an-Engagement-Collapse-After-a-Recommendation-Model-Update',
+        text: 'Diagnosed a 26.3% drop in plays per active user after a recommendation-model rollout using SQL, Python, segmentation, and hypothesis testing.',
+        link: 'https://github.com/Vatsalsrivastava1209/Engagement-Collapse-RCA',
         tags: ['SQL', 'Python', 'Product Metrics']
     },
     {
         title: 'Scientific A/B Testing',
         text: 'Experimentation pipeline covering sample-size planning, uplift analysis, Bayesian testing, sequential checks, and multiple-testing correction.',
-        link: 'https://github.com/Vatsalsrivastava1209/Scientific-A-B-Testing-for-Your-DS-ML-Creator-Account',
+        link: 'https://github.com/Vatsalsrivastava1209/Creator-Experimentation-Toolkit',
         tags: ['Experimentation', 'Statistics', 'Growth']
     }
 ];

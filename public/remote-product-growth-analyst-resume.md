@@ -25,7 +25,7 @@ Built an AI-powered analytics product that detects KPI anomalies, investigates l
 
 ### User Engagement Collapse Investigation
 
-Investigated a 17% watch-time drop after a recommendation model update using SQL, Python ETL, segmented time-series analysis, and hypothesis testing. Isolated regional failure, quantified 7-day impact, and recommended rollback plus canary testing.
+Diagnosed a 26.3% drop in plays per active user after a recommendation-model rollout using SQL, Python ETL, segmented time-series analysis, and hypothesis testing. Isolated regional failure, quantified 7-day impact, and recommended rollback plus canary testing.
 
 ### Scientific A/B Testing Pipeline
 
@@ -33,4 +33,4 @@ Built an experimentation workflow covering sample-size planning, randomization c
 
 ### E-commerce Customer Behavior and Sales Insights Dashboard
 
-Built an interactive Power BI dashboard analyzing 4,373 customers across 38 countries and approximately GBP 9.75M in total sales. Identified seasonality, top revenue markets, and customer behavior patterns.
+Built a Power BI and Python customer analytics workflow covering 4,338 customers and 8.91M in net revenue after cleaning returns, cancellations, and postage rows. Identified seasonality, top revenue markets, and customer behavior patterns.
